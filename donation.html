@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/swdo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>SWDO | Donation</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/checkout/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+
+
+    <style>
+      input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button{
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    </style>
+  </head>
+  
+  <body class="bg-light">
+
+<!-- Start Navbar -->
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="imgs/swdo logo.png"
+          style="line-height: 10%; width: 100%; max-width: 150px;
+          background: #eff7fa;
+          position: sticky; bottom: 0%; top: 0%;" alt="" srcset="">
+        </a>
+        <button class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#main"
+        aria-controls="main"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" id="tit"  aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link p-2 dropdown-toggle"
+              href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                about us
+              </a>
+              <ul id="ulai" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item border-bottom" href="#">who we are</a></li>
+                <li><a class="dropdown-item border-bottom" href="#">our work</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item border-bottom" href="#">where we work</a></li>
+                <li><a class="dropdown-item" href="#">get involved</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control"
+            type="search" placeholder="Search....." aria-label="Search">
+            <button class="btn main-btn" type="submit">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button> 
+            <a class="btn sub-btn mx-2" href="donation.html">
+              Donate
+            </a>
+          </form>
+      </div>
+    </nav>
+<!-- End Navbar -->
+
+
+
+
+
+    
+<div class="container">
+  <main>
+    <div class="py-5 text-center">
+      <h2 class="m-auto text-center row">
+        <img src="imgs/swdo.png" class="mx-auto" alt="" srcset=""
+        style="max-width: 150px;">
+      </h2>
+      <h2>Checkout form</h2>
+      <p class="lead text-md-start">
+        Below is an example form built entirely with Bootstrap’s 
+        form controls. Each required form group has a validation 
+        state that can be triggered by attempting to submit the 
+        form without completing it.</p>
+    </div>
+      <div class="col-md-7 col-lg-8 m-auto p-4">
+        <h4 class="mb-3">Payment details</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">
+                First name *
+            </label>
+              <input type="text" class="form-control" id="firstName"
+              placeholder="" maxlength="8" value="" required>
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Last name *</label>
+              <input type="text" class="form-control" id="lastName"
+              placeholder="" maxlength="8" value="" required>
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-md-5">
+                <label for="country" class="form-label">Country</label>
+                <select class="form-select" id="country" required>
+                  <option value="">Choose...</option>
+                  <option>United States</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid country.
+                </div>
+              </div>
+  
+              <div class="col-md-4">
+                <label for="state" class="form-label">State</label>
+                <select class="form-select" id="state" required>
+                  <option value="">Choose...</option>
+                  <option>California</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please provide a valid state.
+                </div>
+              </div>
+  
+              <div class="col-md-3">
+                <label for="zip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="zip"
+                placeholder="" maxlength="6" required>
+                <div class="invalid-feedback">
+                  Zip code required.
+                </div>
+              </div>
+              <div class="col-md-3 p-2 d-flex">
+                <button class="btn donat-btn m-1">$15.00</button>
+                <button class="btn donat-btn m-1">$20.00</button>
+                <button class="btn donat-btn m-1">$30.00</button>
+              </div>
+            </div>
+        </form>
+  
+            <hr class="my-4">
+  
+            
+
+
+
+            <div class="col-md-7 col-lg-8">
+                <h4 class="mb-3">Your contact details</h4>
+                <form class="needs-validation" novalidate>
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email address *</label>
+                        <input type="email" class="form-control"
+                        id="email" maxlength="16" placeholder="you@example.com">
+                        <div class="invalid-feedback">
+                          Please enter a valid email address for shipping updates.
+                        </div>
+                      </div>
+
+                    <div class="col-12 mt-4">
+                        <label class="form-label">Phone number</label>
+                        <div class="input-group has-validation">
+                          <span class="input-group-text">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                          </span>
+                          <input type="number" class="form-control"
+                          id="phonenumber" placeholder=""
+                          maxlength="13" required>
+                        <div class="invalid-feedback">
+                            Your username is required.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-check mt-4">
+                        <input type="checkbox" class="form-check-input"
+                        id="same-address">
+                        <label class="form-check-label" for="same-address">
+                           Yes, I am happy for SWDO to use the personal information.
+                        </label>
+                      </div>
+                      </form>
+            
+
+
+          <hr class="my-4">
+          <h4 class="mb-3">Payment method</h4>
+          <form class="needs-validation" novalidate>
+          <div class="my-3 d-flex">
+            <div class="form-check m-1">
+              <input id="credit"
+              name="paymentMethod"
+              type="radio" class="form-check-input" checked required>
+              <label class="form-check-label" for="credit">Credit card</label>
+            </div>
+            <div class="form-check m-1">
+              <input id="debit"
+              name="paymentMethod"
+              type="radio" class="form-check-input" required>
+              <label class="form-check-label" for="debit">Debit card</label>
+            </div>
+            <div class="form-check m-1">
+              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+              <label class="form-check-label" for="paypal">PayPal</label>
+            </div>
+          </div>
+
+          <div class="row gy-3">
+            <div class="col-md-6">
+              <label for="cc-name" class="form-label">Name on card</label>
+              <input type="text" class="form-control" id="cc-name"
+              placeholder="" maxlength="14" required>
+              <small class="text-muted">Full name as displayed on card</small>
+              <div class="invalid-feedback">
+                Name on card is required
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="cc-number" class="form-label">Credit card number</label>
+              <input type="text" class="form-control" id="cc-number"
+              placeholder="" maxlength="16" required>
+              <div class="invalid-feedback">
+                Credit card number is required
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-expiration" class="form-label">Expiration</label>
+              <input type="date" class="form-control" id="cc-expiration"
+              placeholder="" required>
+              <div class="invalid-feedback">
+                Expiration date required
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-cvv" class="form-label">Security code</label>
+              <input type="text" class="form-control" id="cc-cvv"
+              placeholder="cvc" maxlength="8" required>
+              <div class="invalid-feedback">
+                Security code required
+              </div>
+            </div>
+          </div>
+          </form>
+
+          <hr class="my-4">
+
+          <button class="w-100 btn sub-btn btn-lg text-uppercase mb-4" type="submit">
+            Donate</button>
+        </form>
+      </div>
+    </div>
+  </main>
+</div>
+
+
+
+
+
+   <!-- Footer -->
+   <footer class="text-center text-lg-start text-light mt-lg-5">
+    <h2 class="m-auto text-center row">
+      <img src="imgs/swdo logo n.png" class="mx-auto" alt="" srcset=""
+      style="max-width: 150px;">
+    </h2>
+    <!-- Section: Links  -->
+    <section class="section text-center fa-1x  p-5">
+      <div class="container text-center text-md-start mt-lg-5">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="mb-3 fa-1x text-uppercase">
+              Links
+            </h6>
+            <p>
+              <a href="index.html" class="" style="text-decoration: none;">Home</a>
+            </p>
+            <p>
+              <a href="#!" class="" style="text-decoration: none;">Support us</a>
+            </p>
+            <p>
+              <a href="terms.html" class="" style="text-decoration: none;">Policy</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="mb-3 fa-1x text-uppercase">
+              About US
+            </h6>
+            <p>
+              <a href="Sing up.html" class="" style="text-decoration: none;">Our work</a>
+            </p>
+            <p>
+              <a href="register.html" class="" style="text-decoration: none;">Who we are</a>
+            </p>
+            <p>
+              <a href="register.html" class="" style="text-decoration: none;">Wher we work</a>
+            </p>
+            <p>
+              <a href="Leadership.html" class="" style="text-decoration: none;">About Us</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="mb-4 fa-1x text-uppercase">
+              address
+            </h6>
+            <p><i class="fas fa-home me-3"></i>
+              <!-- Sudan Women Development Organization (SWDO) -->
+              South Darfur-Nyala-Almazad block<!-- Nyala City–South Darfur state. -->
+            </p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              ypcb2021or@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +249121396527</p>
+            <p><i class="fas fa-print me-3"></i> +249902835548</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center p-2 section">
+      <!-- Left -->
+      <!-- Left -->
+      <!-- Right -->
+      <div>
+        <ul class="d-flex mt-5 list-unstyled gap-3">
+          <li>
+            <a class="d-block text-light" href="#"
+              ><i class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"></i
+            ></a>
+          </li>
+          <li>
+            <a class="d-block text-light" href="#"
+              ><i class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"></i
+            ></a>
+          </li>
+          <li>
+            <a class="d-block text-light" href="#"
+              ><i class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"></i
+            ></a>
+          </li>
+          <li>
+            <a class="d-block text-light" href="#"
+              ><i class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+       <!-- Copyright -->
+    
+    <!-- Copyright -->
+      <!-- Right -->
+    </section>
+    <div class="text-center section p-2">
+      © 2023 Copyright SWDO.org
+    </div>
+    <!-- Section: Social media -->
+  </footer>
+  <!-- Footer -->
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/all.min.js"></script>
+  </body>
+</html>
