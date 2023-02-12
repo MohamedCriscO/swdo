@@ -18,7 +18,7 @@
   --yellow-color: #ffc400;
   --section-color: #eff7fa;
 }
-@media screen and (max-width:600px){
+@media screen and (width:740px){
   .carousel-item img{
     transform: translate(150%,0%) !important;
   }
