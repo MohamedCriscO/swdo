@@ -119,16 +119,25 @@ body {
 .section{
   background-color: #041c3b;
 }
+/* Start Subscribe */
+.subscribe {
+  background-color: var(--yellow-color);
+}
 .subscribe input[type="email"] {
   border: none;
-  background-color: white;
+  border-bottom: 1px solid white;
 }
 .subscribe input[type="email"]:focus {
   outline: none;
 }
 .subscribe ::placeholder {
-  color: #041c3b;
+  color: white;
 }
+.subscribe input[type="submit"] {
+  background-color: var(--dark-color);
+  color: var(--yellow-color);
+}
+/* End Subscribe */
 /* Start Our Work */
 .our-work {
   background-color: var(--section-color);
