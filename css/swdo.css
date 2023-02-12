@@ -25,7 +25,7 @@
 @media screen and (max-width:600px){
   #carousel-item img{
     width: 100% !important;
-    transform: translate(65%,0%) !important;
+    transform: translate(60%,0%) !important;
   }
 }
 body {
@@ -135,13 +135,13 @@ body {
 }
 .subscribe input[type="email"] {
   border: none;
-  border-bottom: 1px solid white;
+  color: black;
 }
 .subscribe input[type="email"]:focus {
   outline: none;
 }
 .subscribe ::placeholder {
-  color: white;
+  color: black;
 }
 .subscribe input[type="submit"] {
   background-color: var(--dark-color);
