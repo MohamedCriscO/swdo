@@ -18,6 +18,11 @@
   --yellow-color: #ffc400;
   --section-color: #eff7fa;
 }
+@media screen and (max-width:600px){
+  .carousel-item img{
+    transform: translate(150%,0%);
+  }
+}
 body {
   font-size: 16px !important;
   font-family: "Roboto", sans-serif;
