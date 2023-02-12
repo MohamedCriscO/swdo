@@ -20,7 +20,7 @@
 }
 @media screen and (max-width:600px){
   .carousel-item img{
-    transform: translate(150%,0%);
+    transform: translate(150%,0%) !important;
   }
 }
 body {
