@@ -42,7 +42,7 @@ body {
   color: var(--dark-color);
 }
 .sub-btn {
-  background-color: #063f3d;
+  background-color: #19283f;
   color: var(--section-color);
   padding: 0.5rem 1rem;
   transition: 0.4s;
@@ -72,11 +72,12 @@ body {
 }
 #ulai li a{
   transition: 0.4s;
-  color: #19283f;
+  font-size: 25px;
+  color: #19283f !important;
   padding-bottom: 12px;
 }
 #ulai li a:hover{
-  color: #02855A;
+  color: #02855A !important;
 }
 /* Start Navbar */
 .navbar {
