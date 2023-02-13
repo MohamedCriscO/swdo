@@ -42,13 +42,14 @@ body {
   color: var(--dark-color);
 }
 .sub-btn {
-  background-color: #33d1cc;
+  background-color: #063f3d;
   color: var(--section-color);
   padding: 0.5rem 1rem;
   transition: 0.4s;
 }
 .sub-btn:hover {
-  color: var(--dark-color);
+  color: var(--section-color);
+  background-color: #08524f;
 }
 .donat-btn{
   box-shadow: none !important;
