@@ -19,12 +19,12 @@
 }
 #carousel-item img{
   max-width: 180px;
-  transform: translate(325%,0%);
+  transform: translate(320%,0%);
 }
-@media screen and (max-width:600px){
+@media screen and (min-width:280px) and (max-width:1280px){
   #carousel-item img{
     width: 100% !important;
-    transform: translate(50%,0%) !important;
+    transform: translate(60%,0%) !important;
   }
 }
 body {
