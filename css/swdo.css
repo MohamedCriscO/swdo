@@ -112,17 +112,19 @@ body {
 
 /* section */
 section p a{
+  color: #d6d6d6;
   transition: 0.4s;
 }
 section p a:hover{
-  color:  #02855A;
+  border-bottom: 2px solid black;
+  color:  #fff;
 }
 section #mail{
   transition: 0.4s;
   cursor: pointer;
 }
 section #mail:hover{
-  color: #0077b5 !important;
+  color: #19283f !important;
 }
 section .facebook,.twitter,
 .linkedin,.youtube,.instagram{
