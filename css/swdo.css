@@ -24,7 +24,7 @@
 @media screen and (max-width:600px){
   #carousel-item img{
     width: 100% !important;
-    transform: translate(60%,0%) !important;
+    transform: translate(50%,0%) !important;
   }
 }
 body {
