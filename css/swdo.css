@@ -27,12 +27,38 @@
     transform: translate(60%,0%) !important;
   }
 }
+/* @media only screen and (min-width:375px) and (max-width:667px){
+  .taxt #p1{
+    color: #fff !important;
+  } 
+  .fet .taxt{
+    width: 100% !important;
+    font-size: 16px;
+    background-color: #1eb5c9;
+  }
+  .tet{
+    width: 100%;
+    padding: 10px;
+    border: none !important;
+  }
+  .tet{
+    border-bottom: 2px solid #02855A !important;
+  }
+  .lead{
+    font-size: 14px;
+   color: #b3dd1d !important;
+  }
+  .batnnn a{
+    color: #1eb5c9 !important;
+  background-color: #fff;
+  } 
+  } */
 @media only screen and (min-width:820px) and (max-width:1180px){
   #carousel-item img{
     width: 100% !important;
     transform: translate(180%,0%) !important;
   }
-  .taxt h1{
+  /* .taxt h1{
     margin-bottom: 0% !important;
     padding-bottom: 0% !important;
   }
@@ -45,14 +71,14 @@
   }
   .batnnn a{
    font-size: 16px;
-  }
+  } */
 }
 @media only screen and (min-width:768px) and (max-width:1024px){
   #carousel-item img{
     width: 100% !important;
     transform: translate(160%,0%) !important;
   }
-  .taxt h1{
+  /* .taxt h1{
     margin-bottom: 0% !important;
     padding-bottom: 0% !important;
   }
@@ -65,7 +91,7 @@
   }
   .batnnn a{
    font-size: 16px;
-  }
+  } */
 }
 @media only screen and (min-width:912px) and (max-width:1368px){
   #carousel-item img{
@@ -108,7 +134,7 @@
     width: 100% !important;
     transform: translate(60%,0%) !important;
   }
-  .taxt h1{
+  /* .taxt h1{
     margin-bottom: 0% !important;
     padding-bottom: 0% !important;
   }
@@ -116,7 +142,7 @@
     width: 100%;
     font-size: 8px;
   }
-  /* .batnnn a{
+  .batnnn a{
    
   } */
 }
@@ -125,7 +151,7 @@
     width: 100% !important;
     transform: translate(40%,0%) !important;
   }
-  .taxt h1{
+  /* .taxt h1{
     margin-bottom: 0% !important;
     padding-bottom: 0% !important;
   }
@@ -136,7 +162,7 @@
   .batnnn a{
    width: 100%;
    font-size: 12px;
-  }
+  } */
 }
 body {
   font-size: 16px !important;
@@ -189,6 +215,11 @@ body {
 }
 #ulai li a:hover{
   color: #02855A !important;
+}
+.wwd-btn{
+  color: #1eb5c9;
+  font-size: 16px;
+  background-color: #fff;
 }
 /* Start Navbar */
 .navbar {
