@@ -19,12 +19,12 @@
 
 
 
-  --primarycolor:  rgb(9, 192, 238);
+  /* --primarycolor:  rgb(9, 192, 238);
   --secondarycolor: #f81b65;
   --lightcolor: #ffffff;
   --bgcolor-1: #171a1c;
   --bgcolor-2: #22282a;
-  --padding: 8%;
+  --padding: 8%; */
 }
 #carousel-item img{
   max-width: 180px;
@@ -36,71 +36,18 @@
     transform: translate(60%,0%) !important;
   }
 }
-/* @media only screen and (min-width:375px) and (max-width:667px){
-  .taxt #p1{
-    color: #fff !important;
-  } 
-  .fet .taxt{
-    width: 100% !important;
-    font-size: 16px;
-    background-color: #1eb5c9;
-  }
-  .tet{
-    width: 100%;
-    padding: 10px;
-    border: none !important;
-  }
-  .tet{
-    border-bottom: 2px solid #02855A !important;
-  }
-  .lead{
-    font-size: 14px;
-   color: #b3dd1d !important;
-  }
-  .batnnn a{
-    color: #1eb5c9 !important;
-  background-color: #fff;
-  } 
-  } */
 @media only screen and (min-width:820px) and (max-width:1180px){
   #carousel-item img{
     width: 100% !important;
     transform: translate(180%,0%) !important;
   }
-  /* .taxt h1{
-    margin-bottom: 0% !important;
-    padding-bottom: 0% !important;
-  }
-  .fet .lead{
-    width: 100%;
-    font-size: 16px;
-  }
-  .tet{
-    width: 50%;
-  }
-  .batnnn a{
-   font-size: 16px;
-  } */
 }
 @media only screen and (min-width:768px) and (max-width:1024px){
   #carousel-item img{
     width: 100% !important;
     transform: translate(160%,0%) !important;
   }
-  /* .taxt h1{
-    margin-bottom: 0% !important;
-    padding-bottom: 0% !important;
-  }
-  .fet .lead{
-    width: 100%;
-    font-size: 16px;
-  }
-  .tet{
-    width: 50%;
-  }
-  .batnnn a{
-   font-size: 16px;
-  } */
+ 
 }
 @media only screen and (min-width:912px) and (max-width:1368px){
   #carousel-item img{
@@ -143,35 +90,13 @@
     width: 100% !important;
     transform: translate(60%,0%) !important;
   }
-  /* .taxt h1{
-    margin-bottom: 0% !important;
-    padding-bottom: 0% !important;
-  }
-  .fet .lead{
-    width: 100%;
-    font-size: 8px;
-  }
-  .batnnn a{
-   
-  } */
+ 
 }
 @media only screen and (min-width:360px) and (max-width:740px){
   #carousel-item img{
     width: 100% !important;
     transform: translate(40%,0%) !important;
   }
-  /* .taxt h1{
-    margin-bottom: 0% !important;
-    padding-bottom: 0% !important;
-  }
-  .fet .lead{
-    width: 100%;
-    font-size: 8px;
-  }
-  .batnnn a{
-   width: 100%;
-   font-size: 12px;
-  } */
 }
 body {
   font-size: 16px !important;
@@ -279,7 +204,7 @@ section #mail{
   cursor: pointer;
 }
 section #mail:hover{
-  color: rgb(117, 175, 23) !important;
+  color: #33df41 !important;
 }
 section .facebook,.twitter,
 .linkedin,.youtube,.instagram{
@@ -358,7 +283,7 @@ section .instagram:hover{
 }
 /* End Our Work */
 /* my cv */
-.home{
+/* .home{
   width: 100%;
   height: 100vh;
   display: flex;
@@ -446,7 +371,7 @@ h4{
 .container-img img{
   position: absolute;
   bottom: 0;
-}
+} */
 /* my cv */
 /* Start Footer */
 footer {
