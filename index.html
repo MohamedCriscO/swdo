@@ -285,11 +285,14 @@
 
 <!--partener-->
 <!-- #F5FDFA -->
-<h2 class="mx-auto text-center pb-4 text-uppercase">Partener</h2>
 
-<div id="carouselexm" class="carousel slide justify-content-center mb-lg-5"
-data-mdb-ride="carousel" style="background-color:#eff7fa;
-border-bottom: 2px solid black;">
+
+<div id="carouselexm" class="carousel slide justify-content-center"
+data-mdb-ride="carousel" style="background-color:#ddf1f8;
+border-bottom: 10px solid #02855A; margin-top: 10%;">
+
+<h2 class="mx-auto text-center text-success text-uppercase">Partener</h2>
+
   <div class="carousel-inner">
     <div class="carousel-item p-2 active" id="carousel-item">
       <img src="imgs/mercy-corps-usa-hq-2311.jpg"
@@ -308,6 +311,9 @@ border-bottom: 2px solid black;">
   type="button" data-bs-target="#carouselexm" data-bs-slide="prev">
     <span class="fa-2x" aria-hidden="true">
       <i class="fas fa-angle-left text-success"></i>
+      <!-- <i class="fas fa-angle-double-left"></i> -->
+      <!-- <i class="fas fa-chevron-circle-up"></i> -->
+      <!-- <i class="fas fa-arrow-circle-up"></i> -->
     </span>
     <span class="visually-hidden">Previous</span>
   </button>
@@ -315,33 +321,70 @@ border-bottom: 2px solid black;">
   type="button" data-bs-target="#carouselexm" data-bs-slide="next">
     <span class="fa-2x" aria-hidden="true">
       <i class="fas fa-angle-right text-success"></i>
+      <!-- <i class="fas fa-angle-double-right"></i> -->
     </span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
       <!--partener-->
 
+     
+     <!-- Footer -->
+   <footer class="text-center text-lg-start text-light">
+    <style>
+        .visit{
+          background-color: #fff;
+        }
+        .visit ul li{
+          border-left: 2px solid #02855A;
+          border-radius: 10px;
+          width: 150px;
+        }
+        .visit ul li h5{
+          font-size: 16px;
+        }
+      </style>
+      <div class="visit">
+      <ul class="container text-uppercase list-unstyled text-center 
+      justify-content-between d-flex">
+        <li class="p-2 m-2">
+          <i class="fa fa-user text-danger fa-2x" aria-hidden="true"></i>
+          <span>
+            <h4 class="text-success">
+              175
+            </h4>
+            <h5 class="border-top text-black">
+              visitors
+            </h5>
+          </span>
+        </li>
+        <li class="p-2 m-2">
+          <i class="fa fa-user text-danger fa-2x" aria-hidden="true"></i>
+          <span>
+            <h4 class="text-success">
+              312
+            </h4>
+            <h5 class="border-top text-black">
+              projects
+            </h5>
+          </span>
+        </li>
+        <li class="p-2 m-2">
+          <i class="fa fa-user text-danger fa-2x" aria-hidden="true"></i>
+          <span>
+            <h4 class="text-success">
+              12
+            </h4>
+            <h5 class="border-top text-black">
+             area of work
+            </h5>
+          </span>
+        </li>
+      </ul>
+      </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   <!-- Footer -->
-   <footer class="text-center text-lg-start text-light" style="margin-top: 20%;">
-
-    <h2 class="m-auto text-center">
-      <img src="imgs/swdo logo n.png" class="mx-auto" alt="" srcset=""
+    <h2 class="mx-auto text-center">
+      <img src="imgs/swdo logo n.png" class="" alt="" srcset=""
       style="max-width: 150px;">
     </h2>
   
@@ -354,7 +397,7 @@ border-bottom: 2px solid black;">
         <!--Grid column-->
         <div class="col-auto mb-4 mb-md-0">
           <p class="pt-2 text-uppercase">
-            Sign up for our newsletter
+            subscribe for our newsletter
           </p>
         </div>
         <!--Grid column-->
@@ -372,7 +415,7 @@ border-bottom: 2px solid black;">
         <!--Grid column-->
         <div class="col-auto mb-4 mb-md-0">
           <!-- Submit button -->
-          <button type="submit" class="btn btn-danger mb-4">
+          <button type="submit" class="btn btn-outline-warning mb-4">
             Subscribe
           </button>
         </div>
@@ -380,9 +423,10 @@ border-bottom: 2px solid black;">
       </div>
       <!--Grid row-->
     </form>
-    <p class="text-center">
-      <a class="btn btn-lg sub-btn w-50 text-uppercase" href="donation.html">Donate</a></p>
   </div>
+  <p class="text-center">
+    <a class="btn btn-lg sub-btn w-50 text-uppercase" href="donation.html">
+      Donate</a></p>
   <!-- Grid container -->
     
   
@@ -425,7 +469,7 @@ border-bottom: 2px solid black;">
               <a href="#!" class="text-decoration-none">What we do</a>
             </p>
             <p>
-              <a href="#!" class="text-decoration-none">Where we work</a>
+              <a href="where.html" class="text-decoration-none">Where we work</a>
             </p>
             <p>
               <a href="board.html" class="text-decoration-none">Excutive board</a>
@@ -494,15 +538,15 @@ border-bottom: 2px solid black;">
   
       
   
-    <!-- Copyright -->
-    <div class="text-center p-2 d-flex text-light justify-content-between border-top">
-      <a class="text-decoration-none text-light"
-      href="index.html"> © 2023 Copyright:SWDO.org</a>
+  <!-- Copyright -->
+  <div class="text-center p-2 d-flex text-light justify-content-between border-top">
+    <a class="text-decoration-none text-light"
+    href="index.html"> © 2023 Copyright:SWDO.org</a>
 
-      <a class="text-decoration-none"
-      href="index.html" style="color: #33df41;"> Deisned by: C R I S C O</a>
-    </div>
-    <!-- Copyright -->
+    <a class="text-decoration-none"
+    href="indexcv.html" style="color: #33df41;"> Deisned by: C R I S C O</a>
+  </div>
+  <!-- Copyright -->
   </footer>
   <!-- Footer -->
 
