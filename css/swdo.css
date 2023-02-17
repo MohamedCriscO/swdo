@@ -17,14 +17,6 @@
   --red-color: #ff3150;
   --yellow-color: #ffc400;
 
-
-
-  /* --primarycolor:  rgb(9, 192, 238);
-  --secondarycolor: #f81b65;
-  --lightcolor: #ffffff;
-  --bgcolor-1: #171a1c;
-  --bgcolor-2: #22282a;
-  --padding: 8%; */
 }
 #carousel-item img{
   max-width: 180px;
@@ -157,7 +149,7 @@ body {
 }
 /* Start Navbar */
 .navbar {
-  background-color: var(--section-color);
+  background-color: #fff;
 }
 .navbar .navbar-nav .nav-link {
   color: var(--main-color);
