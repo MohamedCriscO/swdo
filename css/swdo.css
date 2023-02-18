@@ -242,6 +242,23 @@ section .instagram:hover{
 }
 /* End visit */
 
+/* sectors */
+.sectors .card img{
+  transform: scale(0.9);
+  transition: 0.4s;
+}
+.sectors .card img:hover{
+  transform: scale(1.0,1.0);
+}
+.sectors .card{
+  transition: 0.4s;
+}
+.sectors .card:hover{
+  cursor: pointer;
+  color: #02855A;
+}
+/* sectors */
+
 /* Start Footer */
 footer {
   background-color: var(--main-color);
