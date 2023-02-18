@@ -10,12 +10,13 @@
   --section-color: #eff7fa;
   --main-color:#02855A;
   --sub-color:#F5FDFA;
-  --dark-color: #19283f;
   --green-color: #1dbe9b;
   --info-color: #25cff2;
   --color-blu: #1eb5c9;
   --red-color: #ff3150;
   --yellow-color: #ffc400;
+  --crisco-color1: #FFD33D;
+  --crisco-color2: #F67C4B;
 }
 #carousel-item img{
   max-width: 180px;
@@ -227,6 +228,52 @@ section .instagram:hover{
 }
 /* leadership */
 
+/* sectors */
+.crisco .card img{
+  transform: scale(0.9);
+  transition: 0.4s;
+}
+.crisco .card img:hover{
+  transform: scale(1.0,1.0);
+}
+.crisco .card{
+  transition: 0.4s;
+}
+.crisco .card:hover{
+  cursor: pointer;
+  color: var(--crisco-color2);
+}
+/* sectors */
+
+
+
+
+
+
+
+/* crisco social */
+
+.social .facebook,.twitter,
+.linkedin,.youtube,.instagram{
+  transition: 0.4s;
+}
+.social .facebook:hover{
+  background-color: #1877f2;
+}
+.social .twitter:hover{
+  background-color: #1da1f2;
+}
+.social .linkedin:hover{
+  background-color: #0077b5;
+}
+.social .youtube:hover{
+  background-color: #ff0000;
+}
+.social .instagram:hover{
+  background-color: #E1306C;
+}
+
+/* crisco social */
 
 /* Start visit */
 .visit{
